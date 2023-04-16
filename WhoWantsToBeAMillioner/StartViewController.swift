@@ -7,11 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class StartViewController: UIViewController {
+    //MARK: - IBOutlets
+    @IBOutlet var resultsLabel: UILabel!
+    //MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
